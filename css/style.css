@@ -1,0 +1,89 @@
+/* fontes retiradas do https://coolors.co/cee5f2-accbe1-94b2ca-7c98b3-70849a-637081-5b6e7d-536b78 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #536B78;
+}
+
+#container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#container > header {
+    background: #637081;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+main {
+    background: #7C98B3;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+footer {
+    background: #ACCBE1;
+    height: 7rem;
+}
+
+/* CSS do nav */
+nav {
+    background: #517A92;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    color: #dedfdd;
+    border-right: 1px solid #d0e4f1;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #dedfdd;
+    padding: 15px;
+}
+
+/* Css do main */
+main > header {
+    color: #2c7b8f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    font-weight: 800;
+}   
+
+.manga { margin-bottom: 20px; 
+    cursor: pointer; 
+}
+
+.manga p {
+    background-color: #2c7b8f;
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.manga p:hover {
+    transform: rotate(-2deg);    
+}
+
+#mangas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
