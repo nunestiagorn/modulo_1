@@ -3,3 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: #536B78;
+}
+
+#container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#container > header {
+    background: #637081;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+main {
+    background: #7C98B3;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+footer {
+    background: #ACCBE1;
+    height: 7rem;
+}
