@@ -161,10 +161,12 @@ main > header {
 
 .contact-container h2 {
     font-size: 36px;
+    color: #fff;
 }
 
 .contact-container p {
     font-size: 20px;
+    color: #fff;
 }
 
 .contact-container input , .contact-container textarea{
@@ -194,4 +196,10 @@ main > header {
     margin-left: auto;
     background-color: #2c7b8f;
     color: #fff;
+}
+
+footer {
+    text-align: center;
+    color: #2c7b8f;
+    font-size: 12px;
 }
