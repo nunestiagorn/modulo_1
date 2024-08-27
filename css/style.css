@@ -1,4 +1,13 @@
-/* fontes retiradas do https://coolors.co/cee5f2-accbe1-94b2ca-7c98b3-70849a-637081-5b6e7d-536b78 */
+/* fontes retiradas do https://coolors.co/cee5f2-accbe1-94b2ca-7c98b3-70849a-637081-5b6e7d-536b78 
+
+tentar adicionar essa imagem de fundo
+background-image: url("../../background_img.jpg");
+
+adicionar links para baixar ou ler o mangá
+
+adicionar icones
+
+*/
 
 * {
     padding: 0;
@@ -9,6 +18,7 @@
 html {
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 body {
@@ -57,18 +67,21 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     display: block;
-    color: #dedfdd;
+    color: #f7f7f7;
     padding: 15px;
 }
 
 /* Css do main */
 main > header {
-    color: #2c7b8f;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
     font-weight: 800;
 }   
 
-.manga { margin-bottom: 20px; 
+.manga { 
+    margin-bottom: 20px; 
     cursor: pointer; 
 }
 
@@ -87,3 +100,5 @@ main > header {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+/*buscando mangá */
