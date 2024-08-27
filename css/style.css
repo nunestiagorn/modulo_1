@@ -1,3 +1,5 @@
+/* fontes retiradas do https://coolors.co/cee5f2-accbe1-94b2ca-7c98b3-70849a-637081-5b6e7d-536b78 */
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +8,7 @@
 
 html {
     font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -32,4 +35,28 @@ main {
 footer {
     background: #ACCBE1;
     height: 7rem;
+}
+
+/* NAV */
+nav {
+    background: #517A92;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    color: #dedfdd;
+    border-right: 1px solid #d0e4f1;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #dedfdd;
+    padding: 15px;
 }
